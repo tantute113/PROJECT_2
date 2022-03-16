@@ -1,0 +1,112 @@
+.content{
+    background-image: url('./imgcss/hinh7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: auto;
+}
+.khung{
+    height: auto;
+    width: 100%;
+    opacity:0.5;
+    background-color:black;
+    border:5px;
+}
+article {
+    height:auto;
+    width:95%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+h1.thongtin {
+    height: 100%;
+    width:auto;
+    font-weight:lighter;
+    background-color:rgb(66,57,48);
+    padding-top:120px;
+    color:white;
+}
+.diachi{
+    height: 40%;
+    width:70%;
+   
+    margin: 0 auto;
+    text-align:center;
+}
+.diachi h2{
+ background-color: darkkhaki;
+    line-height:50px;
+    color:white;
+}
+#lienhe{
+    background-color:rgb(131, 88, 47)
+}
+@media screen and (max-width:1068px){
+}
+@media screen and (max-width: 480px) {
+    .thongtin{
+        height: 1200px;
+        width: 110%;
+        font-size: medium;
+    }
+    .content{
+        width: 100%;
+    }
+    .diachi iframe{
+        height: 20%;
+        width: 70%;
+    }
+    .diachi h2{
+        font-size: medium;
+    }
+  
+    .slogan{
+        margin: 0 auto;
+    }
+    .main-slogan h1{
+        font-size: medium;
+    }
+ 
+    .btn-ontop{
+        height: 30%;
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+    }
+    .btn-ontop a{
+        padding-left: 24px;
+        font-size: smaller;
+    }  
+}
+@media screen and (max-width: 736px) {
+    .btn-ontop{
+        height: 50px;
+        width: 140px;
+        margin: 0 auto;
+        float: none;
+    }
+    .btn-ontop a{
+        padding-left: 15px;
+        font-size: smaller;
+    } 
+    .content{
+        height: auto;
+        width: 100%;
+    }
+    .diachi iframe{
+        height: 50%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 746px) {
+    .diachi iframe{
+        height: 50%;
+        width: 100%;
+    }
+    .content{
+        height: auto;
+        width: 100%;
+    }
+  
+}

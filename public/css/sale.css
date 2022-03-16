@@ -1,0 +1,285 @@
+.banner {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+p {
+    line-height: 50px;
+    float: left;
+    padding-left: 250px;
+}
+
+.free {
+    height: 750px;
+    width: 100%;
+}
+
+.free img {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.khungbu {
+    height: 750px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.khung1 {
+    line-height: 50px;
+    height: 50px;
+    width: auto;
+    background-color: darkkhaki;
+    text-align: center;
+    color: white;
+}
+
+.khung2 {
+    height: 700px;
+    width: auto;
+    background-color: white;
+}
+
+.khung2_1 {
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 28%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.khung2_2 {
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 30%;
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.khung2_3 {
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 30%;
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hinhanh {
+    height: 400px;
+    width: 85%;
+    margin: 20px auto;
+}
+
+.hinhanh img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.chung {
+    margin: 0 auto;
+    height: 100px;
+    width: 85%;
+    background-color: darkkhaki;
+}
+
+#uudai {
+    background-color: rgb(131, 88, 47);
+
+}
+
+
+
+@media (max-width:1076px) {
+     .icon_mobile{
+         margin-top: 10px;
+         margin-left: 10px;
+         display: block ; 
+
+     }
+      .pc {
+          display: none;
+      }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        height: 3500px;
+        width: 100%;
+    }
+
+    .hinhanh {
+        height: 400px;
+        width: 85%;
+    }
+
+    .khungbu {
+        height: 2500px;
+    }
+
+    .khung1 h1 {
+        line-height: 50px;
+        font-size: medium;
+    }
+
+    .khung2 {
+        height: 2400px;
+    }
+
+    .khung2_1 {
+        height: 25%;
+        width: 90%;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .khung2_2 {
+        height: 25%;
+        width: 90%;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .khung2_3 {
+        height: 25%;
+        width: 90%;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .banner {
+        height: 150px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .footer {
+        height: 50%;
+        width: 100%;
+    }
+
+    .slogan {
+        margin: 0 auto;
+    }
+
+    .main-slogan h1 {
+        font-size: medium;
+    }
+
+    .footer-con {
+        height: 50%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-con h4 {
+        font-size: small;
+        margin: 0 auto;
+    }
+
+    .btn-ontop {
+        height: 30%;
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .btn-ontop a {
+        padding-left: 24px;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 741px) {
+    .btn-ontop {
+        height: 50px;
+        width: 150px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .btn-ontop a {
+        padding-left: 15px;
+        font-size: smaller;
+    }
+
+    .content {
+        height: 3500px;
+        width: 100%;
+    }
+
+    .khungbu {
+        height: 2000px;
+    }
+
+    .khung2_1 {
+        width: 99%;
+        float: none;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .khung2_2 {
+        width: 99%;
+        float: none;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .khung2_3 {
+        width: 99%;
+        float: none;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .banner {
+        height: 150px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+}
+
+@media screen and (min-width: 746px) {
+    .khungbu {
+        width: 780px;
+    }
+
+    .banner {
+        height: 150px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .khung2 {
+        margin: 0 auto;
+    }
+
+    .khung2_1 {
+        margin-left: 30px;
+    }
+
+    .khung2_2 {
+        margin-left: 5px;
+    }
+
+    .khung2_3 {
+        margin-left: 5px;
+    }
+}
+.control-btn{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    float: right;
+}

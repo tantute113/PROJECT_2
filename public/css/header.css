@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* header */
+.content1 ul li {
+    display: block;
+    height: 50px;
+    width: 200px;
+    max-width: 100%;
+    line-height: 50px;
+    border-bottom: solid 1px gray;
+}
+
+.content1 ul li a {
+    color: gray;
+    margin-left: 5px;
+}
+
+.content1 ul li.active {
+    background-color: darkkhaki;
+    color: white;
+    border-bottom: none;
+}
+
+.content1 ul li.active a {
+    color: white;
+}
+.menu {
+    height: 75px;
+    width: 100%;
+    background-color: darkkhaki;
+    position: fixed;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+ul>li {
+    float: left;
+    list-style: none;
+    line-height: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul>li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.menu ul li a::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 10px;
+    bottom: -10px;
+    left: 0px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.menu ul li a:hover::after {
+    width: 50%;
+    transform: translateX(100%);
+}
+
+.menu h1 {
+    padding-left: 20px;
+    padding-right: 64px;
+    float: left;
+    color: white;
+    line-height: 68px;
+    font-family: "Dancing Script";
+}
+
+.login-register {
+    float: right;
+    height: 75px;
+    width: 250px;
+    line-height: 75px;
+    font-family: sans-serif;
+    padding-right: 20px;
+}
+
+.login-register a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin-left: 5px;
+    transition: all 0.5s linear;
+}
+
+.login-register a::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 10px;
+    bottom: -10px;
+    left: 0px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.login-register a:hover::after {
+    width: 50%;
+    transform: translateX(100%);
+}
+/*===============================MENU-HOVER=============================================*/
+
+
+.menu.stiky {
+    padding: 7px 0;
+    background-color: darkkhaki;
+    opacity: 1;
+}
+.icon_mobile {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.over_lay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+
+}
+
+.close {
+    display: block;
+}
+.mobile_nav {
+    transform: translateX(-100%);
+    z-index: 9999999999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: darkkhaki;
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    transition: transform linear 0.3s;
+
+}
+
+ul.mobile_ul {
+    text-align: center;
+    z-index: 9999999999999999;
+    margin: 0 auto;
+    width: 320px;
+    max-width: 100%;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.mobile_ul li {
+    height: 60px;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 100%;
+
+}
+
+.mobile_ul li a {
+    color: white;
+}
+
+.nav_input:checked~.over_lay {
+    display: block;
+
+}
+/* header */
+.icon_mobile {
+
+    float: left;
+}
+
+.nav_input:checked~.mobile_nav {
+    transform: translateX(0%);
+}
+@media (max-width:1355px) {
+    .login-register {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+
+    .login-register {
+        display: none;
+    }
+/* header */
+    .icon_mobile {
+        margin-top: 10px;
+        margin-left: 10px;
+        display: block;
+    }
+/* header */
+    ul.pc {
+        display: none;
+    }
+
+  
+
+    .menu {
+        max-width: 100%;
+    }
+
+   
+
+}
+@media screen and (max-width: 768px) {
+   
+
+    .menu {
+        max-width: 768px;
+    }
+
+   
+
+
+
+   
+
+    /*===slide====*/
+  
+ 
+   
+
+   
+   
+   
+
+  
+
+    /*====sanpham====*/
+ 
+
+  
+  
+
+   
+
+   
+
+   
+
+    /*====nut xem tat ca===*/
+
+
+ 
+
+    /*====footer tren====*/
+   
+  
+
+    
+    /*===responsive width 414===*/
+    @media screen and (max-width: 415px) {
+      
+    
+
+        /*=====slide====*/
+     
+       
+
+      
+     
+
+        /*=====sanpham====*/
+      
+       
+
+
+    }
+}
+
