@@ -1,5 +1,5 @@
 <?php
-class testModel extends db{
+class testModel extends db {
     public function getSV()
     {
         return "pham chi tan";
@@ -11,7 +11,6 @@ class testModel extends db{
     {  $sql="SELECT * FROM SANPHAM";
         return mysqli_query($this->conn,$sql);
       
-        
     }
 }
 

@@ -1,0 +1,259 @@
+
+    *{
+        padding: 0;
+        margin: 0 ;
+        font-family: sans-serif;
+    }
+ .container{
+     background-color: whitesmoke;
+     width: 100%;
+     height: 700px;
+ }
+ .menu{
+    
+     background-color: darkkhaki;
+     width: 100%;
+     height: 50px;
+     line-height: 50px;
+ }
+ .menu h1{
+     float: left;
+     color: white;
+     margin-left: 10px;
+ }
+ .menu img{
+     float: left;
+ }
+ thead th{
+     width: auto;
+    
+ }
+
+
+
+ .table{
+     margin-top: 40px;
+   margin-left: 40px;
+     float: left;
+     width: 60%;
+     height:300px;
+ }
+ .table table{
+     border: none;
+    border-collapse: collapse;
+     width: 100%;
+ }
+ .table table td{
+     text-align: center;
+ }
+ .table table td img{
+    
+     max-width: 50px;
+ }
+ img,svg{
+    color: black;
+   vertical-align: middle;
+}
+ th, td {
+     border: white;
+  text-align: center;
+  padding: 8px;
+  background-color:white;
+}
+tbody tr:hover td{
+    background-color: whitesmoke;
+}
+td input{
+    border: none;
+    border: 1px solid darkkhaki;
+    width: 30px;
+    text-align: center;
+}
+th {
+  color:black;
+  border-bottom: 1px solid darkkhaki;
+}
+
+
+
+
+.total{
+   
+    margin-top: 40px;
+   margin-right: 40px;
+    float: right;
+    width: 32%;
+    background-color:white;
+    max-height: 400px;
+}
+.total .total1{
+   margin-left: 15px;
+}
+.mini-total{
+    margin-top: 10px;
+    display: flex
+}
+
+
+.coupon input[type="text"]{
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border:1px solid darkkhaki;
+    color: dark;
+   
+}
+.coupon input[type="submit"]{
+    font-size: 20px;
+    background-color: darkkhaki;
+    padding: 6px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    border: none;
+    border: 1px solid darkkhaki;
+    color: white;
+    font-size: 12;
+    transition: 0.3s ease-in-out;
+}
+.coupon input[type="submit"]:hover{
+  color: black;
+}
+.total2{
+    background-color: white;
+   
+    width: 100%;
+    height: 390px;
+  
+}
+.dathang{
+    text-align: right;
+    width: 100%;
+    
+}
+.total2>.dathang>input[type="submit"]{
+    margin-right: 25px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border: 1px solid darkkhaki;
+    background-color: darkkhaki;
+    color: white;
+}
+.table2 .label{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+.label label{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    display: block;
+}
+#thanhtoan{
+    border-top: 1px solid black;
+    width: auto;
+    border-top: 1px  solid darkkhaki;
+    color: black;
+     font-weight: 700;
+}
+
+.total2>.total3 textarea{
+   height: 80px;
+  padding-left: 4px;
+    width: 89%;
+    outline: none;
+    border: none;
+    border: 1px solid darkkhaki;
+    margin-left: 15px;
+    
+}
+.total2>.total3 input{
+   
+  outline-color: red;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid darkkhaki;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+.total2>.dathang>input{
+    margin-top: 20px;
+    background-color: darkkhaki;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+.total2>.dathang>input:hover{
+   
+    color: black;
+    
+}.form-update {
+    text-align: right;
+}
+.form-update input{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+border: none;
+border: 1px solid darkkhaki;
+background-color: darkkhaki;
+transition: 0.3s ease-in-out;
+}
+.form-update input:hover{
+    color: black;
+   
+}
+.form-update input:active{
+    color: red;
+}
+.content{
+    width: 100%;
+    height: auto;
+}
+ @media (max-width:1024px){
+     body{
+         width: 100%;
+     }
+     .table{
+         margin-right: 0px;
+         margin-left: 0px;
+         width: 100%;
+         height: auto;
+         margin-bottom: 50px;
+         display: block;
+     }
+     .total{
+         float: none;
+         width: 100%;
+     }
+     .coupon input[type="text"]{
+         margin: 0px;
+     }
+     .coupon{
+        
+        display: inline-table;
+     }
+
+ }
+ @media (max-width:400px)
+ {
+    .coupon{
+        margin-bottom: 5px;
+    }
+     th ,td{
+         padding: 2px;
+     }
+ }
+ select#select {
+     color: white;
+    outline: none;
+    border: none;
+    background: darkkhaki;
+    margin-right: 110px;
+    height: 30px;
+}

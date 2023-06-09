@@ -1,17 +1,25 @@
 <div class="menu">
-            <label for="nav_input" class="icon_mobile"><img style="max-width:40px;" src="./img/menu-button-of-three-horizontal-lines.png" alt=""></label>
+            <label for="nav_input" class="icon_mobile"><img style="max-width:40px;" src="public/img/menu-button-of-three-horizontal-lines.png" alt=""></label>
             <h1>Hoa Yên</h1>
             <ul class="pc">
-                <li id="trangchu"><a href="Home/index">TRANG CHỦ</a></li>
-                <li ><a href="Product/index">SẢN PHẨM</a></li>
-                <li><a href="Intro/index">CÂU CHUYỆN</a></li>
-                <li><a href="Sale/index">ƯU ĐÃI</a></li>
-                <li><a href="Contact/index">LIÊN HỆ</a></li>
+                <li class="trangchu"  ><a  href="Home">TRANG CHỦ</a></li>
+                <li><a href="Product">SẢN PHẨM</a></li>
+                <li><a href="Intro">CÂU CHUYỆN</a></li>
+                <li><a href="Sale">ƯU ĐÃI</a></li>
+                <li><a href="Contact">LIÊN HỆ</a></li>
             </ul>
+         
             <div class="login-register">
-            
-                        <a href='Login/index'>ĐĂNG NHẬP</a>
-                        <a href='Signup/index'>ĐĂNG KÍ</a>
+              <?php  
+              if(isset($_SESSION['user']))
+              {
+                echo "<a href='Login/Logout'>ĐĂNG XUẤT</a>";
+              }else{
+                     echo "   <a href='Login'>ĐĂNG NHẬP</a>";
+                        echo "<a href='Signup'>ĐĂNG KÍ</a>";
+
+              }
+                        ?>
             </div>
 
 
@@ -20,7 +28,7 @@
             </label>
             <nav class="mobile_nav">
                 <label for="nav_input" class="close">
-                    <img style="width:15%;" src="./icons/close-button.png" alt="">
+                    <img style="width:15%;" src="public/img/close-button.png" alt="">
                 </label>
                 <ul class="mobile_ul">
                     <li><a href="index.php">TRANG CHỦ</a></li>
@@ -29,8 +37,8 @@
                     <li><a href="uudai.php">ƯU ĐÃI</a></li>
                     <li><a href="lienhe.php">LIÊN HỆ</a></li>
                    
-                       <li><a href='Login/index'>ĐĂNG NHẬP</a></li>
-                        <li><a href='Signup/index'>ĐĂNG KÍ</a></li> 
+                       <li><a href='Login'>ĐĂNG NHẬP</a></li>
+                        <li><a href='Signup'>ĐĂNG KÍ</a></li> 
  
                   
                 </ul>

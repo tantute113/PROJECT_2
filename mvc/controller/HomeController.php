@@ -4,14 +4,15 @@ class HomeController extends Controller{
 public $var ;
 function __construct()
 {
-    $this->var=$this->model('testModel');
+    $this->var=$this->model('classProduct');
 
 }
 function index()
 {
-    $this->view('indexview',["sv"=>$this->var->sanpham()
-
-,"page"=>"homeview"
+    $this->view('indexview',[
+        "sanphamnoibat"=>$this->var->sanphamnoibat() 
+,     
+        "page"=>"homeview"
 ,"css"=>"homeview"
 
 

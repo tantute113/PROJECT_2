@@ -14,16 +14,17 @@
 <body>
 
     <div class="from">
-        <form method="POST" class="label">
+        <form  action="Login" method="POST" class="label">
             <h1>Đăng Nhập <a href="Home/index"><i style="color: white;" class="fas fa-sign-out-alt"></i></a></h1>
             <label for="user">Tên người dùng:</label>
             <input type="text" name="user" id="user" placeholder="vui lòng nhập tên" value="<?php if(isset($_POST['user'])){echo $_POST['user'];}?>">
 
             <label for="telephone">Mật khẩu:</label>
             <input type="password" name="pass" id="telephone" placeholder="vui lòng nhập mật khẩu">
-            <input type="submit" name="submit" value="Đăng Nhập">
+            <input type="submit" name="login" value="Đăng Nhập">
             <br>
-            <div class="why"><a href="Signup/index">Bạn chưa có tài khoản</a></div>
+            <div class="why"><a href="Signup">Đăng ký</a></div>
+            <div class="why"><a href="Forgot">Quên mật khẩu</a></div>
         </form>
 
 

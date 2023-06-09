@@ -4,28 +4,21 @@
     font-family: sans-serif;
 }
 /* header */
-.content1 ul li {
-    display: block;
-    height: 50px;
-    width: 200px;
-    max-width: 100%;
-    line-height: 50px;
-    border-bottom: solid 1px gray;
-}
 
-.content1 ul li a {
-    color: gray;
+.menu ul.pc li.trangchu a {
+    color: white;
     margin-left: 5px;
 }
 
-.content1 ul li.active {
-    background-color: darkkhaki;
+.menu>ul.pc>li.trangchu {
+ 
     color: white;
     border-bottom: none;
 }
 
-.content1 ul li.active a {
+.content1 ul li.trangchu a {
     color: white;
+  
 }
 .menu {
     height: 75px;
@@ -141,8 +134,7 @@ ul>li a {
     display: block;
 }
 .mobile_nav {
-    transform: translateX(-100%);
-    z-index: 9999999999;
+    transform: translateX(-125%);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -152,7 +144,6 @@ ul>li a {
     max-width: 100%;
     height: auto;
     transition: transform linear 0.3s;
-
 }
 
 ul.mobile_ul {
@@ -278,6 +269,7 @@ ul.mobile_ul {
        
 
       
+
      
 
         /*=====sanpham====*/

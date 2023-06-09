@@ -1,0 +1,85 @@
+.edit-ad {
+     
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  input[type="reset"] {
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+input[type="reset"] {
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+  .input-ad {
+
+   
+   margin: 10px auto;
+    display: flex;
+
+    height: auto;
+  
+
+  }
+
+  .input-ad input[type="submit"] {
+
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+  }
+
+  .input-ad input[type="text"] {
+    border: none;
+    outline: none;
+    border: 1px solid rgb(18, 16, 29);
+
+    width: 85%;
+    height: 28px;
+
+  }
+
+  .input-ad textarea {
+    width:85%;
+    height: 200px;
+  }
+
+  .label-ad {
+    background-color: rgb(18, 16, 29);
+    color: white;
+    text-align: center;
+
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .name-ed-ad {
+    line-height: 50px;
+    background-color: rgb(18, 16, 29);
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    color: white;
+  }
+
+  .name-ed-ad h2 {
+    margin-left: 32px;
+  }
+
+  .ck.ck-editor {
+    width: 500px;
+  }
+  form{
+    width: 90%;
+    margin: 0 auto;
+  }
